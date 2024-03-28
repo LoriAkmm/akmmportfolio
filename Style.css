@@ -1,0 +1,61 @@
+*{
+	padding: 0;
+	margin: 0;
+  	font-family: "Mate SC", serif;
+ 	font-weight: 400;
+ 	font-style: normal;
+
+
+}
+/*Nav Bar Start*/
+header{
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	height: 5vh;
+	background: #EFBC9B;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+	color: white;
+}
+.logo{
+	font-size: 1.5em;
+	font-weight: 500;
+}
+.navbar a{
+	position: relative;
+	font-size: 19px;
+	text-decoration: none;
+	color: white;
+	margin-left: 100px;
+}
+.navbar a:hover{
+	color: #41C9E2;
+	transition: 1s;
+}
+/*Navbar End*/
+
+/*Personal Info Start*/
+.personal-info{
+	background: #2D9596;
+	display: flex;
+	height: 60vh;
+}
+.image{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background-color: #EFBC9B;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.pic{
+	width: 220px;
+	margin-left: 10px;
+
+}
+/*Personal Info End*/
